@@ -31,8 +31,8 @@ from SCons.Script import DefaultEnvironment
 env = DefaultEnvironment()
 platform = env.PioPlatform()
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoteensymod")
-FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoteensymod")
+FRAMEWORK_DIR = platform.get_package_dir("framework-arduinoteensy")
+FRAMEWORK_VERSION = platform.get_package_version("framework-arduinoteensy")
 BUILD_CORE = env.BoardConfig().get("build.core")
 
 assert isdir(FRAMEWORK_DIR)

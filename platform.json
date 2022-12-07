@@ -52,7 +52,7 @@
       "type": "framework",
       "optional": false,
       "owner": "befaco",
-      "version": "~1.157.0"
+      "version": "https://github.com/thomasvanta/framework-arduinoteensymod.git"
     },
     "framework-mbed": {
       "type": "framework",

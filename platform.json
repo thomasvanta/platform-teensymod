@@ -49,10 +49,11 @@
       "version": "~1.50401.0"
     },
     "framework-arduinoteensymod": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.157.0"
+      "type": "git",
+      "url": "https://github.com/thomasvanta/framework-arduinoteensymod.git",
+      "optional": false,
+      "owner": "befaco",
+      "version": "~1.158.0"
     },
     "framework-mbed": {
       "type": "framework",
